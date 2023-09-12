@@ -1,0 +1,30 @@
+h2{
+    padding-top: 80px;
+}
+/*以下是ChatRoom页面的样式*/
+.chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+/*以下是FriendList页面的样式*/
+.list-group-item {
+    font-size: 18px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: #f2f2f2;
+}
+.btn-block{
+    position: relative;
+    left: 145px;
+}
